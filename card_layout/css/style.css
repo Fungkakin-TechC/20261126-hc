@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    color: #222;
+    background-color: #fff;
+}
+
+
+header {
+    background-color: #f2f2f2;
+    padding: 0 0 60px;
+    text-align: center;
+    width: 100%;
+}
+
+.logo {
+    background-color: #fff;
+    padding: 20px 0;
+    font-size: 36px;
+    font-width: bold;
+    margin-bottom: 80px;
+
+}
+
+.copy {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.copy h1 {
+    font-size: 36px;
+    color: #000;
+    line-height: 1.4;
+    margin-bottom: 32px;
+}
+
+
+.copy p {
+    font-size: 16px;
+    color: #000;
+    line-height: 1.75;
+    margin-bottom: 5px;
+}
+
+section {
+    max-width: 1200px;
+    margin: 150px auto;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section_label {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.section_title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+}
+
+
+.reason_card {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.card_reason {
+
+    background:
+        url("https://placehold.jp/9197ee/ffffff/400x300.png?text=bg-img") center top / cover no-repeat;
+
+    width: 380px;
+    min-height: 280px;
+    padding: 20px 0;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.card_reason_number {
+    font-size: 60px;
+    font-weight: bold;
+    color: #666;
+}
+
+.card_reason_text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    line-height: 1.5;
+
+}
+
+.function_card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 30px;
+    margin-bottom: 40px;
+}
+
+.card_function {
+    background: #f2f2f2;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.card_function_icon {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card_function_text h3 {
+    font-size: 20px;
+    color: #1571da;
+    margin-bottom: 18px;
+}
+
+.card_function_text p {
+    line-height: 1.75;
+}
+
+.card_function.large {
+    width: 565px;
+    padding: 30px 40px;
+}
+
+.card_function.small {
+    width: 366px;
+    padding: 40px;
+}
+
+.card_function.small .card_function_icon {
+    width: 100px;
+    height: 100px;
+}
+
+.company_logo {
+    border: 2px solid #f2f2f2;
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 0;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.company_logo img {
+    width: 156px;
+    height: 60px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #999;
+}
+
+.partnar {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.partnar_company_block {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.partnar_company_content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.partnar_company_img {
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #999;
+}
+
+.partnar_company_title {
+    font-size: 20px;
+    color: #1571da;
+    font-weight: bold;
+    line-height: 1.4;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.partnar_company {
+    font-size: 16px;
+    color: #222;
+    font-weight: bold;
+    height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.partnar_company_info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 0;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.partnar_company_info dt {
+    width: 6em;
+    font-weight: normal;
+    color: #333;
+}
+
+.partnar_company_info dd {
+    width: calc(100% - 6em);
+    font-weight: bold;
+    color: #000;
+
+}
+
+.button_detail {
+    border: 2px solid #1571da;
+    background-color: #fff;
+    color: #1571da;
+    display: block;
+    width: 180px;
+    height: 50px;
+    margin: 40px auto 0;
+    padding: 0 40px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-width: bold;
+    cursor: pointer;
+}
+
+.button_detail:hover {
+    background-color: #f0f7ff;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 14px;
+}
